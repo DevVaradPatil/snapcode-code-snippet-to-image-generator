@@ -17,7 +17,7 @@ import ExportOptions from "./components/controls/ExportOptions";
 import WaterMarkSwitch from "./components/controls/WaterMarkSwitch";
 import InnerRadiusSlider from "./components/controls/InnerRadiusSlider";
 import OuterRadiusSlider from "./components/controls/OuterRadiusSlider";
-import AlertDialogDemo from "./components/ui/alert";
+import AlertDialogDemo from "./components/ui/Alert";
 
 function App() {
   const theme = useStore((state) => state.theme);

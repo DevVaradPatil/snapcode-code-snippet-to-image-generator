@@ -1,5 +1,5 @@
 import useStore from "@/store"
-import { Input } from "../ui/input"
+import { Input } from "../ui/Input"
 
 export default function FontSizeInput() {
   const fontSize = useStore((state) => state.fontSize)

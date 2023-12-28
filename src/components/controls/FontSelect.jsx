@@ -5,7 +5,7 @@ import {
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from "../ui/select"
+} from "../ui/Select"
 import useStore from "@/store"
 
 export default function FontSelect() {

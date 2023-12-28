@@ -1,5 +1,5 @@
 import useStore from "@/store"
-import { Slider } from "../ui/slider"
+import { Slider } from "../ui/Slider"
 
 export default function OuterRadiusSlider() {
   const outerRadius = useStore((state) => state.outerRadius)

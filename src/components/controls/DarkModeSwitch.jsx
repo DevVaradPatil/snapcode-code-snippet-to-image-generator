@@ -1,5 +1,5 @@
 import useStore from "@/store"
-import { Switch } from "../ui/switch"
+import { Switch } from "../ui/Switch"
 
 export default function DarkModeSwitch() {
   const darkMode = useStore((state) => state.darkMode)

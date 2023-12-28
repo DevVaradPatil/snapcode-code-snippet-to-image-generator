@@ -4,8 +4,8 @@ import {
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuTrigger,
-} from "../ui/dropdown-menu";
-import { Button } from "../ui/button";
+} from "../ui/Dropdown-menu";
+import { Button } from "../ui/Button";
 import {
   DownloadIcon,
   ImageIcon,
