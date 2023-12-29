@@ -42,7 +42,7 @@ export const languages = {
   }
   
   export const themes = {
-    super: {
+    hyper: {
       background: "bg-gradient-to-br from-pink-500 via-red-600 to-orange-500",
       theme:
         "https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/atom-one-dark-reasonable.min.css",

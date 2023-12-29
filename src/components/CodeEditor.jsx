@@ -88,7 +88,7 @@ const CodeEditor = () => {
               store.showWaterMark ? "opacity-100" : "opacity-0"
           )}
         >
-          Generated @SnapCode
+          Generated @CodeSnap
         </p>
       </div>
     </div>
