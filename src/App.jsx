@@ -4,7 +4,7 @@ import { fonts, themes } from "./options";
 import { Resizable } from "re-resizable";
 import { cn } from "./lib/utils";
 import CodeEditor from "./components/CodeEditor";
-import { Card, CardContent } from "./components/ui/Card.jsx";
+import { Card, CardContent } from "./components/ui/Card";
 import ThemeSelect from "./components/controls/ThemeSelect";
 import LanguageSelect from "./components/controls/LanguageSelect";
 import FontSelect from "./components/controls/FontSelect";
