@@ -15,7 +15,7 @@ import {
 import { DropdownMenuSeparator } from "@radix-ui/react-dropdown-menu";
 import { toBlob, toPng, toSvg } from "html-to-image";
 import { toast } from "react-hot-toast";
-import useStore from "@/store";
+import useStore from "../../store";
 
 const ExportOptions = ({ targetRef }) => {
   const title = useStore((state) => state.title);

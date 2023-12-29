@@ -1,4 +1,4 @@
-import useStore from "@/store"
+import useStore from "../../store"
 import { Switch } from "../ui/Switch"
 
 export default function BackgroundSwitch() {

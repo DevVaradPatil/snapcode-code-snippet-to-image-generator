@@ -1,4 +1,4 @@
-import useStore from "@/store"
+import useStore from "../../store"
 import { Input } from "../ui/Input"
 
 export default function FontSizeInput() {

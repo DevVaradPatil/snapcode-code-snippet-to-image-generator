@@ -1,6 +1,6 @@
-import { cn } from "@/lib/utils";
-import { codeSnippets, fonts } from "@/options";
-import useStore from "@/store";
+import { cn } from "../lib/utils";
+import { codeSnippets, fonts } from "../options";
+import useStore from "../store";
 import flourite from "flourite";
 import hljs from "highlight.js";
 import React, { useEffect } from "react";

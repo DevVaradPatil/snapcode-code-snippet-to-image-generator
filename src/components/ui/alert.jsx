@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import * as AlertDialog from "@radix-ui/react-alert-dialog";
-import { cn } from "@/lib/utils"
+import { cn } from "../../lib/utils"
 
 const AlertDialogDemo = () => {
   const [isOpen, setisOpen] = useState(false);

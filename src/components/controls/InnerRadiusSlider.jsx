@@ -1,4 +1,4 @@
-import useStore from "@/store"
+import useStore from "../../store"
 import { Slider } from "../ui/Slider"
 
 export default function InnerRadiusSlider() {

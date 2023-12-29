@@ -1,4 +1,4 @@
-import { languages, themes } from "@/options"
+import { languages, themes } from "../../options"
 import {
   Select,
   SelectContent,
@@ -6,8 +6,8 @@ import {
   SelectTrigger,
   SelectValue,
 } from "../ui/Select"
-import { cn } from "@/lib/utils"
-import useStore from "@/store"
+import { cn } from "../../lib/utils"
+import useStore from "../../store"
 import { MagicWandIcon } from "@radix-ui/react-icons"
 
 export default function LanguageSelect() {

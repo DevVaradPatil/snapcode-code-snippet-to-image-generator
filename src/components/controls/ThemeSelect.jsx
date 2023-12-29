@@ -1,4 +1,4 @@
-import { themes } from "@/options"
+import { themes } from "../../options"
 import {
   Select,
   SelectContent,
@@ -6,8 +6,8 @@ import {
   SelectTrigger,
   SelectValue,
 } from "../ui/Select"
-import { cn } from "@/lib/utils"
-import useStore from "@/store"
+import { cn } from "../../lib/utils"
+import useStore from "../../store"
 
 export default function ThemeSelect() {
   const theme = useStore((state) => state.theme)
